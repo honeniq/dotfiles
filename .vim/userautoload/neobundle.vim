@@ -16,6 +16,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'altercation/vim-colors-solarized.git'
+NeoBundle 'kana/vim-submode'
 
 
 " Required:
