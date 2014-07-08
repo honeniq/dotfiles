@@ -3,7 +3,11 @@
 "
 set antialias " アンチエイリアス
 
-set guifont=Ricty:h18
+if has('win32')
+	set guifont=Ricty:h14
+elseif has('mac')
+	set guifont=Ricty:h18
+endif
 
 " 一部のUCS文字の幅を自動計測して決める
 if has('kaoriya')
@@ -23,4 +27,5 @@ set lines=60
 " コマンドラインの高さ(GUI使用時)
 set cmdheight=2
 
+colorscheme solarized
 set background=dark

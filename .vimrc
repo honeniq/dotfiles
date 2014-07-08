@@ -2,4 +2,5 @@
 set runtimepath+=~/.vim/
 runtime! userautoload/*.vim
 
+colorscheme solarized
 set background=dark

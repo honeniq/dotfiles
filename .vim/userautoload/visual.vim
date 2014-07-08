@@ -7,6 +7,4 @@ syntax enable
 "    set background=dark
 "endif
 
-colorscheme solarized
-
 let g:solarized_termcolors=256
