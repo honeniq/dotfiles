@@ -1,17 +1,17 @@
-## dotfilesŽg‚¢•û
+## dotfilesä½¿ã„æ–¹
 
-Ž©•ª‚Ì‚½‚ß‚Ì”õ–Y˜^B
-¡‚Ì‚Æ‚±‚ëVim‚ÌÝ’è‚¾‚¯B
+è‡ªåˆ†ã®ãŸã‚ã®å‚™å¿˜éŒ²ã€‚
+ä»Šã®ã¨ã“ã‚Vimã®è¨­å®šã ã‘ã€‚
 
 #### git clone
 
-dotfilesˆÈ‰º‚ðƒNƒ[ƒ“B
+dotfilesä»¥ä¸‹ã‚’ã‚¯ãƒ­ãƒ¼ãƒ³ã€‚
 
 ```
 ~$ git clone https://github.com/honeniq/dotfiles/ ~/dotfiles/
 ```
 
-#### ƒŠƒ“ƒNì¬
+#### ãƒªãƒ³ã‚¯ä½œæˆ
 
 ```
 ~$ ln -s ~/dotfiles/.vimrc ~/.vimrc
@@ -21,15 +21,15 @@ dotfilesˆÈ‰º‚ðƒNƒ[ƒ“B
 
 #### NeoBundle
 
-NeoBundle‚ð“±“ü‚·‚éB
+NeoBundleã‚’å°Žå…¥ã™ã‚‹ã€‚
 
 ```
 ~$ git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 
-#### ƒvƒ‰ƒOƒCƒ“‚ÌƒCƒ“ƒXƒg[ƒ‹
+#### ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-Vim‚ð—§‚¿ã‚°‚é‚Æƒvƒ‰ƒOƒCƒ“‚ÌƒCƒ“ƒXƒg[ƒ‹‚ªŽn‚Ü‚éB
+Vimã‚’ç«‹ã¡ä¸Šã’ã‚‹ã¨ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã®ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ãŒå§‹ã¾ã‚‹ã€‚
 
 ```
 ~$ vim
