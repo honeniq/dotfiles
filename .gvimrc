@@ -4,7 +4,7 @@
 set antialias " アンチエイリアス
 
 if has('win32')
-	set guifont=Ricty:h14
+	set guifont=Migu_1M:h12
 elseif has('mac')
 	set guifont=Ricty:h18
 endif
@@ -19,10 +19,10 @@ endif
 " ウインドウに関する設定:
 "
 " ウインドウの幅
-set columns=100
+set columns=150
 
 " ウインドウの高さ
-set lines=60
+set lines=48
 
 " コマンドラインの高さ(GUI使用時)
 set cmdheight=2

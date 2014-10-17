@@ -6,7 +6,7 @@ if has('vim_starting')
 endif
 
 " Required:
-call neobundle#rc(expand('~/.vim/bundle/'))
+call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 " Required:
@@ -19,6 +19,7 @@ NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'Shougo/unite.vim'
 
+call neobundle#end()
 
 " Required:
 filetype plugin indent on
