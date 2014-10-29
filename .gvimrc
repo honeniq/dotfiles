@@ -27,5 +27,9 @@ set lines=48
 " コマンドラインの高さ(GUI使用時)
 set cmdheight=2
 
+" タブを表示 0=表示しない 1=タブがあるときは表示 2=常に表示
+set showtabline=2
+
+" 配色設定
 colorscheme solarized
 set background=dark
