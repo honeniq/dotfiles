@@ -18,6 +18,7 @@ NeoBundle 'itchyny/lightline.vim'
 NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'Shougo/unite.vim'
+NeoBundle 'Shougo/neomru.vim'
 
 call neobundle#end()
 

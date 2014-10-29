@@ -1,3 +1,26 @@
+" 一部無効化
+nnoremap ZZ <Nop>
+nnoremap ZQ <Nop>
+nnoremap Q <Nop>
+
+
+" ----------------------------------------------------------------------------------------
+"   unite.vim関係のキーバインド 
+" ----------------------------------------------------------------------------------------
+nnoremap <Space> <Nop>
+nnoremap [unite] <Nop>
+nmap     <Space>u [unite]
+
+nnoremap [unite]b :<C-u>Unite<Space>buffer<CR>
+nnoremap [unite]f :<C-u>Unite<Space>file<CR>
+nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
+nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
+nnoremap [unite]c :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
+
+
+" NERDTreeのON/OFF
+nnoremap <Space>n :NERDTreeToggle<CR>
+
 " ----------------------------------------------------------------------------------------
 "   画面分割を便利にする  http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca
 " ----------------------------------------------------------------------------------------
