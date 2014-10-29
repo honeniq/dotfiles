@@ -19,7 +19,7 @@ endif
 " ウインドウに関する設定:
 "
 " ウインドウの幅
-set columns=150
+set columns=128
 
 " ウインドウの高さ
 set lines=48
