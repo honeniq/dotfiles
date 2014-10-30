@@ -3,20 +3,27 @@ nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
 nnoremap Q <Nop>
 
+" ノーマルモードではセミコロンをコロンに。
+nnoremap ; :
+
+" pでペーストするときにヤンクされた文字列のみを対象にする（xで削除した文字が貼り付かない） 
+nnoremap p "0p
 
 " ----------------------------------------------------------------------------------------
-"   unite.vim関係のキーバインド 
+"   プラグインのキーバインド
+"     スペース→プラグインの頭文字→サブコマンド
 " ----------------------------------------------------------------------------------------
+"   unite.vim関係のキーバインド 
 nnoremap <Space> <Nop>
 nnoremap [unite] <Nop>
 nmap     <Space>u [unite]
 
 nnoremap [unite]b :<C-u>Unite<Space>buffer<CR>
+nnoremap [unite]c :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 nnoremap [unite]f :<C-u>Unite<Space>file<CR>
 nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
-nnoremap [unite]c :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
-
+nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
@@ -50,9 +57,6 @@ nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
 nnoremap sb :<C-u>Unite buffer_tab -buffer-name=file<CR>
 nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
-
-" ノーマルモードではセミコロンをコロンに。
-nnoremap ; :
 
 call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
 call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
