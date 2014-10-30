@@ -10,5 +10,9 @@ set background=dark
 
 
 " スワップ・バックアップファイルの置き場
-set directory=~/.vim/tmp/
-set backupdir=~/.vim/tmp/
+set directory=~/.vim/tmp
+set backupdir=~/.vim/tmp
+
+" カレントディレクトリを編集中のファイルの親に
+set autochdir
+
