@@ -15,6 +15,12 @@ NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
+NeoBundle 'tomtom/tcomment_vim'
+NeoBundle 'nathanaelkane/vim-indent-guides'
+
+" RubyŽx‰‡
+NeoBundle 'tpope/vim-endwise'
+
 
 " NeoComplete‚ÆNeoComplcache‚ÌŽg‚¢•ª‚¯
 "   http://rhysd.hatenablog.com/entry/2013/08/24/223438

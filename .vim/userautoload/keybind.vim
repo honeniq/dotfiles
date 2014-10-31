@@ -1,3 +1,6 @@
+" http://deris.hatenablog.jp/entry/2013/05/02/192415
+
+
 " 一部無効化
 nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
@@ -27,6 +30,9 @@ nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
+
+"nnoremap <Leader>ig <Nop>
+"nnoremap <Space>i <Plug>IndentGuidesToggle
 
 " ----------------------------------------------------------------------------------------
 "   画面分割を便利にする  http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca
