@@ -50,3 +50,6 @@
 :set nobackup
 " ファイルの上書きの前にバックアップを作る。オプション 'backup' がオンでない限り、バックアップは上書きに成功した後削除される。（有効:writebackup/無効:nowritebackup）
 :set writebackup
+
+" スクロール時に指定した行数分だけ余裕を持たせる
+:set scrolloff=6
