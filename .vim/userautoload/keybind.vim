@@ -42,8 +42,19 @@ nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
 
+
 "nnoremap <Leader>ig <Nop>
 "nnoremap <Space>i <Plug>IndentGuidesToggle
+
+
+" Markdownのプレビュー
+"   http://yoshiko.hatenablog.jp/entries/2014/04/18
+let g:previm_open_cmd = ''
+nnoremap [previm] <Nop>
+nmap <Space>p [previm]
+nnoremap <silent> [previm]o :<C-u>PrevimOpen<CR>
+nnoremap <silent> [previm]r :call previm#refresh()<CR>
+
 
 " ----------------------------------------------------------------------------------------
 "   画面分割を便利にする  http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca

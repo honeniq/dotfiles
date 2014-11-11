@@ -18,6 +18,10 @@ NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 
+" Markdownのプレビュー用
+NeoBundle 'kannokanno/previm'
+NeoBundle 'tyru/open-browser.vim'
+
 " Ruby支援
 NeoBundle 'tpope/vim-endwise'
 
