@@ -1,13 +1,22 @@
-" http://deris.hatenablog.jp/entry/2013/05/02/192415
-
-
+" ----------------------------------------------------------------------------------------
+"   ノーマルモード 
+"     vimでキーマッピングする際に考えたほうがいいこと http://deris.hatenablog.jp/entry/2013/05/02/192415
+" ----------------------------------------------------------------------------------------
 " 一部無効化
 nnoremap ZZ <Nop>
 nnoremap ZQ <Nop>
 nnoremap Q <Nop>
+nnoremap gQ <Nop>
 
 " ノーマルモードではセミコロンをコロンに。
 nnoremap ; :
+
+" 折り返し行に対する移動を振り替え
+nnoremap j gj
+nnoremap k gk
+nnoremap gj j
+nnoremap gk k
+
 
 " pでペーストするときにヤンクされた文字列のみを対象にする（xで削除した文字が貼り付かない） 
 nnoremap p "0p
@@ -39,12 +48,13 @@ nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
 nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 
+
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
 
 
-"nnoremap <Leader>ig <Nop>
-"nnoremap <Space>i <Plug>IndentGuidesToggle
+" vim-indent-guidesのON/OFF
+nnoremap <Space>i :IndentGuidesToggle<CR>
 
 
 " Markdownのプレビュー
