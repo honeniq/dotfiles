@@ -30,7 +30,8 @@ nnoremap p "0p
 inoremap <ESC> <C-c>
 inoremap <C-c> <ESC>
 
-
+" jjでインサートモードを抜ける
+inoremap jj <ESC>
 
 " ----------------------------------------------------------------------------------------
 "   プラグインのキーバインド
@@ -62,7 +63,7 @@ nnoremap <Space>i :IndentGuidesToggle<CR>
 let g:previm_open_cmd = ''
 nnoremap [previm] <Nop>
 nmap <Space>p [previm]
-nnoremap <silent> [previm]o :<C-u>PrevimOpen<CR>
+nnoremap <silent> [previm]o :PrevimOpen<CR>
 nnoremap <silent> [previm]r :call previm#refresh()<CR>
 
 

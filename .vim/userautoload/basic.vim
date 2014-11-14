@@ -53,3 +53,7 @@
 
 " スクロール時に指定した行数分だけ余裕を持たせる
 :set scrolloff=6
+
+" 折りたたみ設定
+:set foldmethod=indent
+:set foldlevel=100
