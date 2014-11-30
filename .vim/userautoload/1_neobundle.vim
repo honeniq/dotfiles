@@ -25,7 +25,6 @@ NeoBundle 'tyru/open-browser.vim'
 " RubyŽx‰‡
 NeoBundle 'tpope/vim-endwise'
 
-
 " NeoComplete‚ÆNeoComplcache‚ÌŽg‚¢•ª‚¯
 "   http://rhysd.hatenablog.com/entry/2013/08/24/223438
 function! Meet_neocomplete_requirements()

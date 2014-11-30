@@ -17,10 +17,8 @@ nnoremap k gk
 nnoremap gj j
 nnoremap gk k
 
-
 " pでペーストするときにヤンクされた文字列のみを対象にする（xで削除した文字が貼り付かない） 
 nnoremap p "0p
-
 
 " ----------------------------------------------------------------------------------------
 "   インサートモード 
@@ -49,14 +47,11 @@ nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
 nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 
-
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
 
-
 " vim-indent-guidesのON/OFF
 nnoremap <Space>i :IndentGuidesToggle<CR>
-
 
 " Markdownのプレビュー
 "   http://yoshiko.hatenablog.jp/entries/2014/04/18
