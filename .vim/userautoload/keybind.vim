@@ -17,10 +17,8 @@ nnoremap k gk
 nnoremap gj j
 nnoremap gk k
 
-
 " pでペーストするときにヤンクされた文字列のみを対象にする（xで削除した文字が貼り付かない） 
-nnoremap p "0p
-
+nnoremap P "0p
 
 " ----------------------------------------------------------------------------------------
 "   インサートモード 
@@ -41,7 +39,6 @@ inoremap jj <ESC>
 nnoremap <Space> <Nop>
 nnoremap [unite] <Nop>
 nmap     <Space>u [unite]
-
 nnoremap [unite]b :<C-u>Unite<Space>buffer<CR>
 nnoremap [unite]c :<C-u>UniteWithBufferDir -buffer-name=files file<CR>
 nnoremap [unite]f :<C-u>Unite<Space>file<CR>
@@ -49,14 +46,11 @@ nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
 nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 
-
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
 
-
 " vim-indent-guidesのON/OFF
 nnoremap <Space>i :IndentGuidesToggle<CR>
-
 
 " Markdownのプレビュー
 "   http://yoshiko.hatenablog.jp/entries/2014/04/18
@@ -66,6 +60,10 @@ nmap <Space>p [previm]
 nnoremap <silent> [previm]o :PrevimOpen<CR>
 nnoremap <silent> [previm]r :call previm#refresh()<CR>
 
+" Incsearch.vim
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
 
 " ----------------------------------------------------------------------------------------
 "   画面分割を便利にする  http://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca

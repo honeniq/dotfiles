@@ -17,16 +17,16 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
+NeoBundle 'haya14busa/incsearch.vim'
 
-" Markdown‚ÌƒvƒŒƒrƒ…[—p
+" Markdownã®ãƒ—ãƒ¬ãƒ“ãƒ¥ãƒ¼ç”¨
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 
-" RubyŽx‰‡
+" Rubyæ”¯æ´
 NeoBundle 'tpope/vim-endwise'
 
-
-" NeoComplete‚ÆNeoComplcache‚ÌŽg‚¢•ª‚¯
+" NeoCompleteã¨NeoComplcacheã®ä½¿ã„åˆ†ã‘
 "   http://rhysd.hatenablog.com/entry/2013/08/24/223438
 function! Meet_neocomplete_requirements()
     return has('lua') && (v:version > 703 || (v:version == 703 && has('patch885')))
