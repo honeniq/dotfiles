@@ -22,6 +22,7 @@
 
 " オンのときは、ウィンドウの幅より長い行は折り返され、次の行に続けて表示される。（有効:wrap/無効:nowrap）
 :set wrap
+:set display=lastline
 
 " 検索がファイル末尾まで進んだら、ファイル先頭から再び検索する。（有効:wrapscan/無効:nowrapscan）
 :set wrapscan
@@ -30,6 +31,8 @@
 
 " 閉じ括弧が入力されたとき、対応する開き括弧にわずかの間ジャンプする。（有効:showmatch/無効:noshowmatch）
 :set showmatch
+" showmatch で対応する括弧にジャンプする時間の設定。0.1秒単位で、設定値が5なら0.5秒
+:set matchtime=1
 
 " 毎行の前に行番号を表示する。（有効:number/無効:nonumber）
 :set number
