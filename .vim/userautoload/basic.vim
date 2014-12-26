@@ -36,6 +36,7 @@
 " カーソルが何行目の何列目に置かれているかを表示する。（有効:ruler/無効:noruler）
 :set ruler
 " タブ文字を CTRL-I で表示し、行末に $ で表示する。（有効:list/無効:nolist）
+":set list
 :set listchars=tab:>-,extends:<,trail:-,eol:<
 
 " 最下ウィンドウにいつステータス行が表示されるかを設定する。

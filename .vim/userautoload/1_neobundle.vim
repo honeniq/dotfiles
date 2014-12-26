@@ -18,6 +18,8 @@ NeoBundle 'Shougo/neomru.vim'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'haya14busa/incsearch.vim'
+NeoBundle 'mattn/benchvimrc-vim'
+NeoBundle 'thinca/vim-scouter'
 
 " Markdownのプレビュー用
 NeoBundle 'kannokanno/previm'

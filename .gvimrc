@@ -33,3 +33,6 @@ set showtabline=2
 " 配色設定
 colorscheme solarized
 set background=dark
+
+" カーソル行をハイライトする(gVimだけ有効にしたり使い分ける用)
+set cursorline
