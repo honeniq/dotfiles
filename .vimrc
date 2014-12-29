@@ -7,9 +7,9 @@ runtime! userautoload/*.vim
 " カーソル行をハイライトする
 set cursorline
 
-colorscheme solarized
+colorscheme wombat
 set background=dark
-
+set t_Co=256
 
 " スワップ・バックアップファイルの置き場
 set directory=~/.vim/tmp

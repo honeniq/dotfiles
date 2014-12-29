@@ -31,7 +31,7 @@ set cmdheight=2
 set showtabline=2
 
 " 配色設定
-colorscheme solarized
+colorscheme wombat
 set background=dark
 
 " カーソル行をハイライトする(gVimだけ有効にしたり使い分ける用)

@@ -20,6 +20,7 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'mattn/benchvimrc-vim'
 NeoBundle 'thinca/vim-scouter'
+NeoBundle 'jeffreyiacono/vim-colors-wombat'
 
 " Markdownのプレビュー用
 NeoBundle 'kannokanno/previm'
