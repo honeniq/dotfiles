@@ -11,7 +11,6 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 " My Bundles here:
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'itchyny/lightline.vim'
-NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'kana/vim-submode'
 NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/neomru.vim'
@@ -20,7 +19,13 @@ NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'mattn/benchvimrc-vim'
 NeoBundle 'thinca/vim-scouter'
+NeoBundle 'ujihisa/unite-colorscheme'
+
+" ColorScheme
+NeoBundle 'altercation/vim-colors-solarized.git'
 NeoBundle 'jeffreyiacono/vim-colors-wombat'
+NeoBundle 'nanotech/jellybeans.vim'
+NeoBundle 'tomasr/molokai'
 
 " Markdownのプレビュー用
 NeoBundle 'kannokanno/previm'

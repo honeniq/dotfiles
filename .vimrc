@@ -7,7 +7,7 @@ runtime! userautoload/*.vim
 " カーソル行をハイライトする
 set cursorline
 
-colorscheme wombat
+colorscheme jellybeans
 set background=dark
 set t_Co=256
 
