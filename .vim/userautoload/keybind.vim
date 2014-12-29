@@ -48,6 +48,7 @@ nnoremap [unite]f :<C-u>Unite<Space>file<CR>
 nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
 nnoremap [unite]r :<C-u>Unite<Space>register<CR>
+nnoremap [unite]p :<C-u>Unite<Space>-auto-preview colorscheme<CR>
 
 " NERDTreeのON/OFF
 nnoremap <Space>n :NERDTreeToggle<CR>
