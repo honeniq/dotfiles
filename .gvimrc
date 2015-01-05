@@ -5,13 +5,19 @@ set antialias " アンチエイリアス
 
 if has('win32')
 	set guifont=Migu_1M:h12
+
 elseif has('mac')
 	set guifont=Ricty:h18
 endif
 
-" 一部のUCS文字の幅を自動計測して決める
 if has('kaoriya')
+  " 一部のUCS文字の幅を自動計測して決める
   set ambiwidth=auto
+  
+  " 半透明設定
+  autocmd GUIEnter    * set transparency=240
+  autocmd FocusGained * set transparency=240
+  autocmd FocusLost   * set transparency=200
 endif
 
 
