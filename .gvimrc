@@ -5,6 +5,8 @@ set antialias " アンチエイリアス
 
 if has('win32')
 	set guifont=Migu_1M:h12
+  " 挿入モードでのIME状態を記憶させない
+  inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 
 elseif has('mac')
 	set guifont=Ricty:h18
