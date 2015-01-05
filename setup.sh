@@ -3,6 +3,7 @@
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.gvimrc ~/.gvimrc
 ln -sf ~/dotfiles/.vim ~/.vim
+ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 mkdir ~/.vim/tmp
 
 ln -sf ~/dotfiles/.pryrc ~/.pryrc
