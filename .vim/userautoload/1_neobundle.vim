@@ -22,7 +22,7 @@ NeoBundle 'thinca/vim-scouter'
 NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'glidenote/memolist.vim'
 NeoBundle 'LeafCage/yankround.vim'
-NeoBundle 'thinka/vim-quickrun'
+NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'scrooloose/syntastic.git'
 
 " ColorScheme
