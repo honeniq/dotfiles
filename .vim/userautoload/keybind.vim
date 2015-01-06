@@ -70,6 +70,9 @@ nmap <Space>p [previm]
 nnoremap <silent> [previm]o :PrevimOpen<CR>
 nnoremap <silent> [previm]r :call previm#refresh()<CR>
 
+" Q vim-quickrun
+nnoremap <Space>q :QuickRun<CR>
+
 " U  unite.vim関係のキーバインド 
 nnoremap <Space> <Nop>
 nnoremap [unite] <Nop>
