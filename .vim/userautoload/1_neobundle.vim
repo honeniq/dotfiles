@@ -20,6 +20,7 @@ NeoBundle 'haya14busa/incsearch.vim'
 NeoBundle 'mattn/benchvimrc-vim'
 NeoBundle 'thinca/vim-scouter'
 NeoBundle 'ujihisa/unite-colorscheme'
+NeoBundle 'glidenote/memolist.vim'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'

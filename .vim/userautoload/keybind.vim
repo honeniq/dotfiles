@@ -41,7 +41,26 @@ inoremap jj <ESC>
 "   プラグインのキーバインド
 "     スペース→プラグインの頭文字→サブコマンド
 " ----------------------------------------------------------------------------------------
-"   unite.vim関係のキーバインド 
+" I vim-indent-guidesのON/OFF
+nnoremap <Space>i :IndentGuidesToggle<CR>
+
+" N NERDTreeのON/OFF
+nnoremap <Space>n :NERDTreeToggle<CR>
+
+" M memolist
+nnoremap <Space>mn :MemoNew<CR>
+nnoremap <Space>ml :MemoList<CR>
+nnoremap <Space>mg :MemoGrep<CR>
+
+" P プレビュー(Markdown)
+"   http://yoshiko.hatenablog.jp/entries/2014/04/18
+let g:previm_open_cmd = ''
+nnoremap [previm] <Nop>
+nmap <Space>p [previm]
+nnoremap <silent> [previm]o :PrevimOpen<CR>
+nnoremap <silent> [previm]r :call previm#refresh()<CR>
+
+" U  unite.vim関係のキーバインド 
 nnoremap <Space> <Nop>
 nnoremap [unite] <Nop>
 nmap     <Space>u [unite]
@@ -52,20 +71,6 @@ nnoremap [unite]h :<C-u>Unite<Space>history/yank<CR>
 nnoremap [unite]m :<C-u>Unite<Space>file_mru<CR>
 nnoremap [unite]r :<C-u>Unite<Space>register<CR>
 nnoremap [unite]p :<C-u>Unite<Space>-auto-preview colorscheme<CR>
-
-" NERDTreeのON/OFF
-nnoremap <Space>n :NERDTreeToggle<CR>
-
-" vim-indent-guidesのON/OFF
-nnoremap <Space>i :IndentGuidesToggle<CR>
-
-" Markdownのプレビュー
-"   http://yoshiko.hatenablog.jp/entries/2014/04/18
-let g:previm_open_cmd = ''
-nnoremap [previm] <Nop>
-nmap <Space>p [previm]
-nnoremap <silent> [previm]o :PrevimOpen<CR>
-nnoremap <silent> [previm]r :call previm#refresh()<CR>
 
 " Incsearch.vim
 map /  <Plug>(incsearch-forward)
