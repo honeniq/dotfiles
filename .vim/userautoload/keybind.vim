@@ -18,7 +18,17 @@ nnoremap gj j
 nnoremap gk k
 
 " pでペーストするときにヤンクされた文字列のみを対象にする（xで削除した文字が貼り付かない） 
-nnoremap p "0p
+"nnoremap p "0p
+
+" yankround設定
+nmap p <Plug>(yankround-p)
+xmap p <Plug>(yankround-p)
+nmap P <Plug>(yankround-P)
+nmap gp <Plug>(yankround-gp)
+xmap gp <Plug>(yankround-gp)
+nmap gP <Plug>(yankround-gP)
+nmap <C-p> <Plug>(yankround-prev)
+nmap <C-n> <Plug>(yankround-next)
 
 " Yをj行末までのヤンクに設定(元々はyyと同じ機能)
 nnoremap Y y$

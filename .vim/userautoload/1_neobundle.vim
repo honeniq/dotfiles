@@ -21,6 +21,7 @@ NeoBundle 'mattn/benchvimrc-vim'
 NeoBundle 'thinca/vim-scouter'
 NeoBundle 'ujihisa/unite-colorscheme'
 NeoBundle 'glidenote/memolist.vim'
+NeoBundle 'LeafCage/yankround.vim'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'
