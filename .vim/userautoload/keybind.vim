@@ -73,6 +73,9 @@ nnoremap <silent> [previm]r :call previm#refresh()<CR>
 " Q vim-quickrun
 nnoremap <Space>q :QuickRun<CR>
 
+" S syntastic
+nnoremap <Space>s :SyntasticCheck<CR>
+
 " U  unite.vim関係のキーバインド 
 nnoremap <Space> <Nop>
 nnoremap [unite] <Nop>
