@@ -9,7 +9,10 @@ if Meet_neocomplete_requirements()
   " Set minimum syntax keyword length.
   let g:neocomplete#sources#syntax#min_keyword_length = 3
   let g:neocomplete#lock_buffer_name_pattern = '\*ku\*'
-  
+
+  "ポップアップメニューで表示される候補の数。初期値は100
+  let g:neocomplete#max_list = 20
+
   " Define dictionary.
   let g:neocomplete#sources#dictionary#dictionaries = {
       \ 'default' : '',
