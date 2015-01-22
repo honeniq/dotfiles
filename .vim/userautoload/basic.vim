@@ -61,3 +61,6 @@
 " 折りたたみ設定
 :set foldmethod=indent
 :set foldlevel=100
+
+" モードラインを有効にする
+:set modeline
