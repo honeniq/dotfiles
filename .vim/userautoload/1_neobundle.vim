@@ -24,6 +24,7 @@ NeoBundle 'glidenote/memolist.vim'
 NeoBundle 'LeafCage/yankround.vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'scrooloose/syntastic.git'
+NeoBundle 'Shougo/neosnippet.vim'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'
@@ -37,6 +38,9 @@ NeoBundle 'tyru/open-browser.vim'
 
 " Ruby支援
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'glidenote/serverspec-snippets'
+NeoBundle 'tacahilo/itamae-snippets'
+
 
 " NeoCompleteとNeoComplcacheの使い分け
 "   http://rhysd.hatenablog.com/entry/2013/08/24/223438
