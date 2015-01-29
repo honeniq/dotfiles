@@ -4,12 +4,11 @@
 set antialias " アンチエイリアス
 
 if has('win32')
-	set guifont=Migu_1M:h12
+	set guifont=Ricty_Discord_for_Powerline:h15
   " 挿入モードでのIME状態を記憶させない
   inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
-
 elseif has('mac')
-	set guifont=Ricty:h18
+	set guifont=Ricty_Discordfor_for_Powerline:h18
 endif
 
 if has('kaoriya')
@@ -21,7 +20,6 @@ if has('kaoriya')
   autocmd FocusGained * set transparency=240
   autocmd FocusLost   * set transparency=200
 endif
-
 
 "---------------------------------------------------------------------------
 " ウインドウに関する設定:
