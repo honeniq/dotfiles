@@ -25,7 +25,7 @@ NeoBundle 'LeafCage/yankround.vim'
 NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'scrooloose/syntastic.git'
 NeoBundle 'Shougo/neosnippet.vim'
-NeoBundle 'Shougo/neosnippet-snippets.vim'
+NeoBundle 'Shougo/neosnippet-snippets'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'
