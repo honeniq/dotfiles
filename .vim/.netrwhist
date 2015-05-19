@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='scp://pi@192.168.2.2/'
+let g:netrw_dirhist_2='scp://pi@192.168.2.2/echo/'
+let g:netrw_dirhist_3='scp://pi@192.168.2.2/'
+let g:netrw_dirhist_4='scp://pi@192.168.2.2/echo/'

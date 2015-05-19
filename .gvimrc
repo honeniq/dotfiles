@@ -8,7 +8,7 @@ if has('win32')
   " 挿入モードでのIME状態を記憶させない
   inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 elseif has('mac')
-	set guifont=Ricty_Discordfor_for_Powerline:h18
+	set guifont=Ricty_Discord_Regular_for_Powerline:h18
 endif
 
 if has('kaoriya')
