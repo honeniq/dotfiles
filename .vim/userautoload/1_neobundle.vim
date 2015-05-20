@@ -26,10 +26,6 @@ NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'scrooloose/syntastic.git'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
-<<<<<<< HEAD
-"NeoBundle 'Shougo/neosnippet-snippets.vim'
-=======
->>>>>>> origin/master
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'
