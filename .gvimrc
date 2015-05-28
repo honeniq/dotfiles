@@ -1,14 +1,14 @@
 "---------------------------------------------------------------------------
 " フォント設定:
-"
+
 set antialias " アンチエイリアス
 
 if has('win32')
-	set guifont=Ricty_Discord_for_Powerline:h15
+	set guifont=Ricty_Discord_for_Powerline:h13.5
   " 挿入モードでのIME状態を記憶させない
   inoremap <silent> <ESC> <ESC>:set iminsert=0<CR>
 elseif has('mac')
-	set guifont=Ricty_Discord_Regular_for_Powerline:h18
+	set guifont=Ricty_Discord_Regular_for_Powerline:h15
 endif
 
 if has('kaoriya')
