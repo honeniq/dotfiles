@@ -26,6 +26,8 @@ NeoBundle 'thinca/vim-quickrun'
 NeoBundle 'scrooloose/syntastic.git'
 NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'lukaszkorecki/workflowish'
+NeoBundle 'terryma/vim-expand-region'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'
