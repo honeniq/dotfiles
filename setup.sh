@@ -7,5 +7,6 @@ ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 mkdir ~/.vim/tmp
 
 ln -sf ~/dotfiles/.pryrc ~/.pryrc
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
 
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
