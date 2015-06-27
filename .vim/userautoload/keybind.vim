@@ -44,10 +44,6 @@ vmap <C-v> <Plug>(expand_region_shrink)
 "   インサートモード 
 " ----------------------------------------------------------------------------------------
 
-" ESCとCTRL-Cを入れ替え
-inoremap <ESC> <C-c>
-inoremap <C-c> <ESC>
-
 " jjでインサートモードを抜ける
 inoremap jj <ESC>
 

@@ -1,3 +1,4 @@
+set nocompatible               " Be iMproved
 set encoding=utf8
 
 " 分割した設定ファイルをすべて読み込む
@@ -24,9 +25,9 @@ if !has('gui_running')
     set notimeout
     set ttimeout
     set timeoutlen=100
-    imap OA <Up>
-    imap OB <Down>
-    imap OC <Right> 
-    imap OD <Left>
+    "imap OA <Up>
+    "imap OB <Down>
+    "imap OC <Right> 
+    "imap OD <Left>
 endif
 
