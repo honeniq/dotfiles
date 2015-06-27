@@ -1,6 +1,15 @@
+export LANG=ja_JP.UTF-8
+
+## 補完機能の強化
 autoload -U compinit
 compinit
 
+## 色を使う
+setopt prompt_subst
+## ビープを鳴らさない
+setopt nobeep
+
+## プロンプトの色設定
 case ${UID} in
 0)
     PROMPT="%B%{[31m%}%/#%{[m%}%b "
@@ -18,6 +27,7 @@ case ${UID} in
     ;;
 esac
 
+## OSごとの設定
 case "${OSTYPE}" in
     # Mac(Unix)
     darwin*)
