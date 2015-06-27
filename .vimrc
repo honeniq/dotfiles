@@ -19,3 +19,14 @@ set undodir=~/.vim/tmp
 " カレントディレクトリを編集中のファイルの親に
 set autochdir
 
+" CLI 挿入モードでカーソルキーがちゃんと使えるように
+if !has('gui_running')
+    set notimeout
+    set ttimeout
+    set timeoutlen=100
+    imap OA <Up>
+    imap OB <Down>
+    imap OC <Right> 
+    imap OD <Left>
+endif
+
