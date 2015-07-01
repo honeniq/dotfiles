@@ -27,6 +27,7 @@ NeoBundle 'Shougo/neosnippet.vim'
 NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'lukaszkorecki/workflowish'
 NeoBundle 'terryma/vim-expand-region'
+NeoBundle 'ConradIrwin/vim-bracketed-paste'
 
 " ColorScheme
 NeoBundle 'altercation/vim-colors-solarized.git'

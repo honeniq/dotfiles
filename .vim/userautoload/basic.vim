@@ -66,4 +66,4 @@
 :set modeline
 
 " ペースト時にオートインデントさせない
-:set paste
+":set paste
