@@ -1,0 +1,30 @@
+
+[[plugins]]
+repo = 'kana/vim-submode'
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = 'source ~/.vim/rc/plugins/vim-indent-guides.vim'
+
+[[plugins]]
+repo = 'haya14busa/incsearch.vim'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'
+hook_add = 'source ~/.vim/rc/plugins/quickrun.vim'
+
+[[plugins]]
+repo = 'scrooloose/syntastic.git'
+hook_add = 'source ~/.vim/rc/plugins/syntastic.vim'
+
+[[plugins]]
+repo = 'ConradIrwin/vim-bracketed-paste'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = 'source ~/.vim/rc/plugins/lightline.vim'
+
+
+# Color Schemes
+[[plugins]]
+repo = 'nanotech/jellybeans.vim'

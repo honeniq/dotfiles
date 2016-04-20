@@ -1,0 +1,84 @@
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+on_i = 1
+if = "has('lua')"
+hook_add = 'source ~/.vim/rc/plugins/neocomplete.vim'
+
+
+# Unite.vimまわり
+[[plugins]]
+repo   = 'Shougo/unite.vim'
+on_source = ['neocomplete.vim']
+hook_post_source = 'source ~/.vim/rc/plugins/unite.vim'
+
+# unite.vim を読み込んだら一緒に読み込む
+[[plugins]]
+repo      = 'Shougo/neomru.vim'
+on_source = ['unite.vim']
+
+
+# NeoSnippet
+[[plugins]]
+repo = 'Shougo/neosnippet.vim'
+on_i = 1
+on_ft = 'snippet'
+hook_add = 'source ~/.vim/rc/plugins/neosnippet.vim'
+
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'
+on_source = ['neosnippet.vim']
+
+
+[[plugins]]
+repo = 'scrooloose/nerdtree'
+on_cmd = 'NERDTreeToggle'
+on_source = ['memolist.vim']
+hook_add = 'source ~/.vim/rc/plugins/nerdtree.vim'
+
+[[plugins]]
+repo = 'LeafCage/yankround.vim'
+hook_add = 'source ~/.vim/rc/plugins/yankround.vim'
+
+# MemoList
+[[plugins]]
+repo = 'glidenote/memolist.vim'
+on_cmd = 'MemoNew'
+on_cmd = 'MemoList'
+on_cmd = 'MemoGrep'
+depends = ['nerdtree.vim']
+hook_add = 'source ~/.vim/rc/plugins/memolist.vim'
+
+# Ruby
+[[plugins]]
+repo = 'glidenote/serverspec-snippets'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'tacahilo/itamae-snippets'
+on_ft = ['ruby']
+
+# Workflow
+[[plugins]]
+repo = 'lukaszkorecki/workflowish'
+on_ft = ['workflowish']
+
+
+# PreVim
+[[plugins]]
+repo = 'kannokanno/previm'
+on_cmd = 'PrevimOpen'
+depends = 'open-browser.vim'
+
+[[plugins]]
+repo = 'tyru/open-browser.vim'
+
+
+#[[plugins]]
+#repo = 'altercation/vim-colors-solarized.git'
+#
+#[[plugins]]
+#repo = 'jeffreyiacono/vim-colors-wombat'
+#
+#[[plugins]]
+#repo = 'tomasr/molokai'
+
