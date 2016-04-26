@@ -24,6 +24,10 @@ repo = 'ConradIrwin/vim-bracketed-paste'
 repo = 'itchyny/lightline.vim'
 hook_add = 'source ~/.vim/rc/plugins/lightline.vim'
 
+[[plugins]]
+repo = 'LeafCage/yankround.vim'
+hook_add = 'source ~/.vim/rc/plugins/yankround.vim'
+
 
 # Color Schemes
 [[plugins]]

@@ -35,9 +35,6 @@ on_cmd = 'NERDTreeToggle'
 on_source = ['memolist.vim']
 hook_add = 'source ~/.vim/rc/plugins/nerdtree.vim'
 
-[[plugins]]
-repo = 'LeafCage/yankround.vim'
-hook_add = 'source ~/.vim/rc/plugins/yankround.vim'
 
 # MemoList
 [[plugins]]
@@ -47,6 +44,15 @@ on_cmd = 'MemoList'
 on_cmd = 'MemoGrep'
 depends = ['nerdtree.vim']
 hook_add = 'source ~/.vim/rc/plugins/memolist.vim'
+
+## Vim-Precious
+#[[plugins]] # カーソル位置のコンテキストに合わせてftを切り替える
+#repo = 'osyo-manga/vim-precious'
+#depends = ['context_filetype.vim']
+#
+#[[plugins]] # カーソル位置のコンテキストのftを判定するライブラリ
+#repo = 'Shougo/context_filetype.vim'
+
 
 # Ruby
 [[plugins]]
