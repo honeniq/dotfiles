@@ -1,5 +1,12 @@
+## Vim
 /.vim/bundle/
 /.vim/tmp/
+
+## fish shell
+/fish/fishd.*
+/fish/fish_history
+/fish/local-config
+/fish/fish_read_history
 
 ## generic files to ignore
 *~
