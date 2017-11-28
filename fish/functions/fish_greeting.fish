@@ -1,1 +1,0 @@
-/home/honeniq/.config/fisherman/bobthefish/fish_greeting.fish
