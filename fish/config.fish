@@ -1,6 +1,7 @@
 ## Env
 set -x XDG_CONFIG_HOME $HOME/.config
 set -x GOPATH $HOME/.go
+set -x PATH $HOME/.go/bin $PATH
 set -x GHQROOT (ghq root)
 
 if test -e $HOME/anaconda3/bin
