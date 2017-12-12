@@ -59,9 +59,9 @@ ubuntuの場合。
 #### リンク作成
 
 ```
-~$ ln -s ~/dotfiles/.vimrc ~/.vimrc
-~$ ln -s ~/dotfiles/.gvimrc ~/.gvimrc
-~$ ln -s ~/dotfiles/.vim ~/.vim
+~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/.vimrc ~/.vimrc
+~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/.gvimrc ~/.gvimrc
+~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/.vim ~/.vim
 ```
 
 #### dein
