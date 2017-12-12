@@ -1,2 +1,5 @@
 set -x XDG_CONFIG_HOME $HOME/.config
-set -x PATH $HOME/anaconda3/bin $PATH
+set -x GOPATH $HOME/.go
+set -x GHQROOT (ghq root)
+
+set -x PATH $HOME/.go/bin $PATH
