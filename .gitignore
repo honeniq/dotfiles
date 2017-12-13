@@ -7,6 +7,11 @@
 /fish/fish_history
 /fish/local-config
 /fish/fish_read_history
+/fish/functions/*
+/fish/completions/*
+/fish/conf.d/*
+!/fish/conf.d/000-env.fish
+
 
 ## generic files to ignore
 *~
