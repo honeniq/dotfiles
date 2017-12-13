@@ -1,11 +1,11 @@
 set nocompatible               " Be iMproved
 set encoding=utf8
 
-set runtimepath+=~/.vim/
+set runtimepath+=~/.vim
 
 
 " ここからdein.vimの設定
-set runtimepath^=~/.cache/dein/repos/github.com/Shougo/dein.vim/
+set runtimepath^=~/.cache/dein/repos/github.com/Shougo/dein.vim
 " プラグインが実際にインストールされるディレクトリ
 let s:dein_dir = expand('~/.cache/dein')
 " dein.vim 本体
