@@ -54,14 +54,31 @@ ubuntuの場合。
 ```
 
 
-### Vim
+### Vim関係
 
-#### リンク作成
+#### vimリンク作成
 
 ```
 ~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/nvim/init.vim ~/.vimrc
 ~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/nvim/dein.toml ~/.config/vim/
 ```
+
+
+#### Neovimリンク作成
+
+```
+~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/nvim/ ~/.config/nvim
+```
+#### Python3のneovimを入れる
+
+```
+~$ pip3 install neovim
+```
+
+#### 初回起動時
+
+``UpdateRemotePlugins``を実行する。
+
 
 #### dein
 
