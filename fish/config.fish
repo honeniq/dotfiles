@@ -1,5 +1,6 @@
 ## Env
 set -x XDG_CONFIG_HOME $HOME/.config
+set -x XDG_CACHE_HOME $HOME/.cache
 set -x GOPATH $HOME/.go
 set -x PATH $HOME/.go/bin $PATH
 set -x GHQROOT (ghq root)
