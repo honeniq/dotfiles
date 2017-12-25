@@ -126,11 +126,14 @@ hook_add = '''
 '''
 
 # Ruby
-
 [[plugins]]
 repo = 'glidenote/serverspec-snippets'
 on_ft = ['ruby']
 
 [[plugins]]
 repo = 'tacahilo/itamae-snippets'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'Shougo/deoplete-rct'
 on_ft = ['ruby']
