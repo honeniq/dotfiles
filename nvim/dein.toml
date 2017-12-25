@@ -11,7 +11,7 @@ hook_add = '''
 
 [[plugins]]
 repo = 'kana/vim-submode'
-hook_add = '''
+hook_post_source = '''
   call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
   call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
   call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
