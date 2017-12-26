@@ -125,6 +125,29 @@ hook_add = '''
   au MyAutoCmd VimEnter * nested colorscheme jellybeans
 '''
 
+[[plugins]] # ファイル検索
+repo = 'ctrlpvim/ctrlp.vim'
+hook_add = '''
+  nmap <Space>f :CtrlP<CR>
+'''
+
+# Git
+[[plugins]]
+repo = 'Xuyuanp/nerdtree-git-plugin'
+
+[[plugins]]
+repo = 'airblade/vim-gitgutter'
+hook_add = '''
+  let g:gitgutter_map_keys = 0
+  let g:gitgutter_enabled = 0
+  nnoremap <Space>gg :GitGutterToggle<CR>
+  " 次の変更箇所ブロックに移動
+  nmap <Space>gn <Plug>GitGutterNextHunk
+  " 前の変更箇所ブロックに移動
+  nmap <Space>gN <Plug>GitGutterPrevHunk
+  nmap <Space>GN <Plug>GitGutterPrevHunk
+'''
+
 # Ruby
 [[plugins]]
 repo = 'glidenote/serverspec-snippets'
@@ -136,4 +159,8 @@ on_ft = ['ruby']
 
 [[plugins]]
 repo = 'Shougo/deoplete-rct'
+on_ft = ['ruby']
+
+[[plugins]]
+repo = 'fishbullet/deoplete-ruby'
 on_ft = ['ruby']
