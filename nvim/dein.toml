@@ -131,6 +131,22 @@ hook_add = '''
   nmap <Space>f :CtrlP<CR>
 '''
 
+#[[plugins]] # コメント切り替え
+#repo = 'tyru/caw.vim.git'
+#hook_add = '''
+#  nmap <Space>c <Plug>(caw:hatpos:toggle)
+#  vmap <Space>c <Plug>(caw:hatpos:toggle)
+#'''
+
+[[plugins]]
+repo = 'tomtom/tcomment_vim.git'
+hook_add = '''
+  nmap <Space>c :TComment<CR>
+  vmap <Space>c :TComment<CR>
+'''
+
+
+
 # Git
 [[plugins]]
 repo = 'Xuyuanp/nerdtree-git-plugin'
