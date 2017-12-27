@@ -93,3 +93,25 @@ deinを導入する。
 
 Vimを立ち上げるとプラグインのインストールが始まる。
 
+
+### Ruby関係
+
+#### rbenv
+
+```
+~$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+```
+
+``rbenv rehash``とかはfishのプラグインがやってくれる。
+
+#### ruby-build
+
+```
+~$ git clone https://github.com/rbenv/ruby-build.git (eval "rbenv root")/plugins/ruby-build
+```
+
+#### rbenv-binstubs
+
+```
+~$ git clone https://github.com/ianheggie/rbenv-binstubs.git (eval "rbenv root")/plugins/rbenv-binstubs
+```
