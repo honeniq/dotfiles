@@ -1,5 +1,7 @@
 oh-my-fish/theme-bobthefish
 fisherman/getopts
 fisherman/jellyfish
+oh-my-fish/plugin-peco
+yoshiori/fish-peco_select_ghq_repository
 fisherman/rbenv
 fisherman/z
