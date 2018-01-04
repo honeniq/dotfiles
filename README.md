@@ -53,6 +53,17 @@ ubuntuの場合。
 ~$ fisher update
 ```
 
+### ユーティリティコマンド関係
+
+Debian Manpageの[file-hierarchy(7)](https://manpages.debian.org/jessie/systemd/file-hierarchy.7.en.html)によると、systemdを使っているディストリビューションでは``~/.local/bin``にもPATHが通るものらしい。 
+ホームディレクトリ配下で遠慮なく触れるので、ここに置くようにしてみる。
+
+#### gibo
+
+```
+~$ ghq get simonwhitaker/gibo
+~$ ln -s ~/.ghq/github.com/simonwhitaker/gibo/gibo ~/.local/bin/
+```
 
 ### Vim関係
 
