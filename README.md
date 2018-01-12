@@ -65,6 +65,15 @@ Debian Manpageの[file-hierarchy(7)](https://manpages.debian.org/jessie/systemd/
 ~$ ln -s ~/.ghq/github.com/simonwhitaker/gibo/gibo ~/.local/bin/
 ```
 
+#### peco
+
+```
+~$ curl -sL https://gist.githubusercontent.com/honeniq/013142abe39ff5b485b242e4691ed903/raw/8111c00ba0296634ae516331a240a8fcb8d9cbdd/install_peco.sh | sh
+```
+
+[honeniq/install_peco.sh](https://gist.github.com/honeniq/013142abe39ff5b485b242e4691ed903) 
+``peco``のリリース版から実行ファイルだけを抜き出して``~/.local/bin/``に入れる。
+
 ### Vim関係
 
 #### vimリンク作成
