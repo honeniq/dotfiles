@@ -131,18 +131,17 @@ hook_add = '''
   nmap <Space>f :CtrlP<CR>
 '''
 
-#[[plugins]] # コメント切り替え
-#repo = 'tyru/caw.vim.git'
-#hook_add = '''
-#  nmap <Space>c <Plug>(caw:hatpos:toggle)
-#  vmap <Space>c <Plug>(caw:hatpos:toggle)
-#'''
-
 [[plugins]]
 repo = 'tomtom/tcomment_vim.git'
 hook_add = '''
   nmap <Space>c :TComment<CR>
   vmap <Space>c :TComment<CR>
+'''
+
+[[plugins]]
+repo = 'nathanaelkane/vim-indent-guides'
+hook_add = '''
+  nmap <Space>ig :IndentGuidesToggle<CR>
 '''
 
 
