@@ -1,0 +1,14 @@
+let mapleader = "\<Space>"
+
+nnoremap L $
+vnoremap L $
+nnoremap H ^
+vnoremap H ^
+
+noremap ; :
+noremap : ;
+
+inoremap jj <ESC>
+
+" IDEA純正の検索機能を使う
+nnoremap / :<C-u>action Find<CR>
