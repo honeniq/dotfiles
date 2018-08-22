@@ -57,8 +57,16 @@ hook_add = '''
 let g:lightline = {
       \ 'colorscheme': 'wombat',
       \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'fugitive', 'filename' ] ]
+      \   'left':  [
+      \              [ 'mode', 'paste' ],
+      \              [ 'fugitive', 'filename']
+      \            ],
+      \   'right': [
+      \              [ 'lineinfo' ],
+      \              [ 'percent' ],
+      \              [ 'fileformat', 'fileencoding', 'filetype'],
+      \              [ 'linter_checking', 'linter_errors', 'linter_warnings', 'linter_ok' ]
+      \            ]
       \ },
       \ 'component_function': {
       \   'fugitive': 'LightLineFugitive',
@@ -71,6 +79,18 @@ let g:lightline = {
       \ 'separator': { 'left': '', 'right': '' },
       \ 'subseparator': { 'left': '', 'right': '' }
 \ }
+let g:lightline.component_expand = {
+      \  'linter_checking': 'lightline#ale#checking',
+      \  'linter_warnings': 'lightline#ale#warnings',
+      \  'linter_errors': 'lightline#ale#errors',
+      \  'linter_ok': 'lightline#ale#ok',
+      \ }
+let g:lightline.component_type = {
+      \     'linter_checking': 'left',
+      \     'linter_warnings': 'warning',
+      \     'linter_errors': 'error',
+      \     'linter_ok': 'left',
+      \ }
 function! LightLineModified()
     if &filetype == "help"
         return ""
@@ -144,6 +164,16 @@ hook_add = '''
   nmap <Space>ig :IndentGuidesToggle<CR>
 '''
 
+# プログラミング補助
+[[plugins]]
+repo = 'w0rp/ale'
+hook_add = '''
+  let g:ale_sign_column_always = 1
+'''
+
+[[plugins]]
+repo = 'maximbaz/lightline-ale'
+
 
 
 # Git
@@ -179,3 +209,9 @@ on_ft = ['ruby']
 [[plugins]]
 repo = 'fishbullet/deoplete-ruby'
 on_ft = ['ruby']
+
+
+# Kotlin
+[[plugins]]
+repo = 'udalov/kotlin-vim'
+on_ft = ['kotlin']
