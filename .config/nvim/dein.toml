@@ -218,3 +218,8 @@ on_ft = ['ruby']
 [[plugins]]
 repo = 'udalov/kotlin-vim'
 on_ft = ['kotlin']
+
+
+# fish shell
+[[plugins]]
+repo = 'vim-scripts/fish-syntax'
