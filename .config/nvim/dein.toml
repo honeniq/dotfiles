@@ -76,8 +76,6 @@ let g:lightline = {
       \   'filetype': 'LightLineFiletype',
       \   'fileformat': 'LightLineFileformat',
       \ },
-      \ 'separator': { 'left': '', 'right': '' },
-      \ 'subseparator': { 'left': '', 'right': '' }
 \ }
 let g:lightline.component_expand = {
       \  'linter_checking': 'lightline#ale#checking',
