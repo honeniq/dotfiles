@@ -135,6 +135,10 @@ nnoremap gQ <Nop>
 " ノーマルモードではセミコロンをコロンに
 nnoremap ; :
 
+" 行頭・行末移動 ※HとLは元々「画面上でN行目の最初の非空白文字に移動」
+nnoremap H 0
+nnoremap L $
+
 " 折り返し行に対する移動を振り替え
 nnoremap j gj
 nnoremap k gk
