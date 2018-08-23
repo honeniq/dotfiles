@@ -3,11 +3,6 @@
 repo = 'Shougo/dein.vim'
 
 # 動作
-[[plugins]]
-repo = 'Shougo/deoplete.nvim'
-hook_add = '''
-  let g:deoplete#enable_at_startup = 1
-'''
 
 [[plugins]]
 repo = 'kana/vim-submode'
@@ -172,7 +167,12 @@ hook_add = '''
 [[plugins]]
 repo = 'maximbaz/lightline-ale'
 
-
+# 補完
+[[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+  let g:deoplete#enable_at_startup = 1
+'''
 
 # Git
 [[plugins]]
