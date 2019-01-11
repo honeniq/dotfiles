@@ -5,6 +5,7 @@ set -x GOPATH $HOME/.go
 set -x PATH $HOME/.go/bin $PATH
 set -x GHQROOT (ghq root)
 set -x PATH $HOME/.local/bin $PATH
+set -x PATH $HOME/.nodebrew/current/bin $PATH
 
 if test -e $HOME/anaconda3/bin
   set -x PATH $HOME/anaconda3/bin $PATH

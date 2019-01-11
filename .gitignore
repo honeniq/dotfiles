@@ -5,11 +5,13 @@
 ## fish shell
 /.config/fish/fishd.*
 /.config/fish/fish_history
+/.config/fish/fish_variables
 /.config/fish/local-config
 /.config/fish/fish_read_history
 /.config/fish/functions/*
 /.config/fish/completions/*
 /.config/fish/conf.d/*
+/.config/fish/*.backup
 !/.config/fish/conf.d/000-env.fish
 !/.config/fish/functions/pook.fish
 
