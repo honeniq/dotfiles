@@ -1,13 +1,2 @@
-fisherman/dartfish
-fisherman/getopts
-fisherman/git_util
-fisherman/host_info
-fisherman/humanize_duration
-fisherman/jellyfish
-fisherman/last_job_id
-oh-my-fish/plugin-peco
-yoshiori/fish-peco_select_ghq_repository
-fisherman/pwd_is_home
-fisherman/pyenv
-fisherman/rbenv
-fisherman/z
+jethrokuan/z
+matchai/spacefish
