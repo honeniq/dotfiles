@@ -12,6 +12,7 @@
 /.config/fish/conf.d/*
 /.config/fish/*.backup
 !/.config/fish/conf.d/000-env.fish
+!/.config/fish/functions/brew.fish
 !/.config/fish/functions/pook.fish
 
 
