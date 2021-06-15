@@ -27,7 +27,7 @@ goが必要。
 #### .config/fish にリンク
 
 ```
-~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/fish ~/.config/
+~$ ln -s ~/.ghq/github.com/honeniq/dotfiles/.config/fish ~/.config/
 ```
 
 #### fish shell インストール
