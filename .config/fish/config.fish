@@ -14,11 +14,9 @@ end
 ## Go
 if test (uname -s) = "Darwin"
   set -x GOPATH "/usr/local/go/bin/go"
+  set -x PATH /usr/local/go/bin $PATH
 else
   set -x GOPATH $HOME/.go
-end
-
-if test -e $HOME/.go/bin
   set -x PATH $HOME/.go/bin $PATH
 end
 
@@ -33,3 +31,11 @@ function fish_user_key_bindings
   bind \cr peco_select_history
   bind \c] peco_select_ghq_repository
 end
+
+## if 'aws' command not exists, use docker container
+if test -e /usr/local/bin/aws
+else
+  alias aws='docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli'
+end
+
+starship init fish | source
