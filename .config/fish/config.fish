@@ -38,4 +38,8 @@ else
   alias aws='docker run --rm -it -v ~/.aws:/root/.aws amazon/aws-cli'
 end
 
-starship init fish | source
+## if 'aws' command not exists, use docker container
+if test -e ~/google-cloud-sdk/bin/gcloud
+else
+  alias gcloud='docker run --rm  --volumes-from gcloud-config gcr.io/google.com/cloudsdktool/cloud-sdk:latest gcloud'
+end
